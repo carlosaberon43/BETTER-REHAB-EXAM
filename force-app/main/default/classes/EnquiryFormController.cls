@@ -82,6 +82,7 @@ public without sharing class EnquiryFormController {
                } 
             }else if(contactAge >= Integer.valueOf(preferredAge)){
                 parameterCounter += 1;
+                
             }
         }
         return parameterCounter;
